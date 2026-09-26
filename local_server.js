@@ -159,3 +159,4 @@ server.listen(PORT, () => {
 // [Build Step 74/102] - feat(journals): add peer-review credentials, ISSN 2708-5422, and bi-annual publishing schedule
 // [Build Step 75/102] - feat(journals): feature International Journal of Sustainability & Multidisciplinary Research (IJSMR)
 // [Build Step 76/102] - feat(journals): feature CRD Student Working Paper Series pre-print repository
+// [Build Step 77/102] - feat(journals): style flagship gold badge and manuscript submission action triggers
