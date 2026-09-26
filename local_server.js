@@ -158,3 +158,4 @@ server.listen(PORT, () => {
 // [Build Step 73/102] - feat(journals): feature Jalalabad Papers (Vol. 4, Issue 1, 2026) flagship journal card
 // [Build Step 74/102] - feat(journals): add peer-review credentials, ISSN 2708-5422, and bi-annual publishing schedule
 // [Build Step 75/102] - feat(journals): feature International Journal of Sustainability & Multidisciplinary Research (IJSMR)
+// [Build Step 76/102] - feat(journals): feature CRD Student Working Paper Series pre-print repository
