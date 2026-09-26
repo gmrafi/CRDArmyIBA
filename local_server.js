@@ -135,3 +135,4 @@ server.listen(PORT, () => {
 // [Build Step 50/102] - feat(hero): construct institutional hero header with statutory research badge
 // [Build Step 51/102] - feat(hero): configure CRD institutional title and Playfair Display typography
 // [Build Step 52/102] - feat(hero): add institutional motto: Pioneering Rigorous Scholarly Research
+// [Build Step 53/102] - feat(hero): integrate primary Institutional Journals and Call for Papers CTAs
