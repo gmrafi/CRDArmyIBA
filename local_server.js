@@ -131,3 +131,4 @@ server.listen(PORT, () => {
 // [Build Step 46/102] - feat(header): construct institutional navigation bar with AIBA Sylhet crest
 // [Build Step 47/102] - feat(header): implement institutional logo title and affiliation text hierarchy
 // [Build Step 48/102] - feat(header): add responsive desktop and mobile navigation links
+// [Build Step 49/102] - feat(header): add manuscript submission CTA trigger button in navbar
