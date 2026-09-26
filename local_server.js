@@ -133,3 +133,4 @@ server.listen(PORT, () => {
 // [Build Step 48/102] - feat(header): add responsive desktop and mobile navigation links
 // [Build Step 49/102] - feat(header): add manuscript submission CTA trigger button in navbar
 // [Build Step 50/102] - feat(hero): construct institutional hero header with statutory research badge
+// [Build Step 51/102] - feat(hero): configure CRD institutional title and Playfair Display typography
