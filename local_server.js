@@ -91,3 +91,4 @@ server.listen(PORT, () => {
 // [Build Step 6/102] - assets: import official Army IBA Sylhet institutional crest (aibalogo.jpg)
 // [Build Step 7/102] - assets: configure vector insignia and seal SVG for institutional branding
 // [Build Step 8/102] - assets: organize official faculty and research staff portrait directory
+// [Build Step 9/102] - assets: add systems technical lead portrait asset for research operations
