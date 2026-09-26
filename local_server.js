@@ -112,3 +112,4 @@ server.listen(PORT, () => {
 // [Build Step 27/102] - data: register International Journal of Sustainability & Multidisciplinary Research (IJSMR)
 // [Build Step 28/102] - data: register CRD Student Working Paper Series metadata in publications registry
 // [Build Step 29/102] - data: catalogue bKash AI Nano Loans empirical study in publications dataset
+// [Build Step 30/102] - data: catalogue Solar Home Systems (SHS) rural livelihoods research in publications dataset
