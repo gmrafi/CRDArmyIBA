@@ -88,3 +88,4 @@ server.listen(PORT, () => {
 // [Build Step 3/102] - build: configure .gitignore for environment, artifacts, and node modules
 // [Build Step 4/102] - build: define jsconfig.json and VS Code developer workspace settings
 // [Build Step 5/102] - docs: define institutional academic mission and institutional scope in README
+// [Build Step 6/102] - assets: import official Army IBA Sylhet institutional crest (aibalogo.jpg)
