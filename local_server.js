@@ -100,3 +100,4 @@ server.listen(PORT, () => {
 // [Build Step 15/102] - style(layout): implement max-width container, responsive paddings, and utility wrappers
 // [Build Step 16/102] - style(components): design institutional badge and status pill styling
 // [Build Step 17/102] - style(buttons): create primary, secondary, and ghost CTA button styles
+// [Build Step 18/102] - style(cards): add elevation shadows and card hover elevation transitions
