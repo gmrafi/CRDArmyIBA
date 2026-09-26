@@ -180,3 +180,4 @@ server.listen(PORT, () => {
 // [Build Step 95/102] - feat(footer): add statutory links to mandate, journals, and governance board
 // [Build Step 96/102] - feat(footer): establish official copyright: © 2026 CRD, Army IBA Sylhet
 // [Build Step 97/102] - feat(footer): maintain subtle engineering credit for Md Golam Mubasshir Rafi
+// [Build Step 98/102] - refactor(team): update standalone team.html into official governance board portal
