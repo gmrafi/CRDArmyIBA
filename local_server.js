@@ -156,3 +156,4 @@ server.listen(PORT, () => {
 // [Build Step 71/102] - feat(governance): polish 4-tier responsive hierarchy, golden crests, and card elevation
 // [Build Step 72/102] - feat(journals): create institutional journals showcase section
 // [Build Step 73/102] - feat(journals): feature Jalalabad Papers (Vol. 4, Issue 1, 2026) flagship journal card
+// [Build Step 74/102] - feat(journals): add peer-review credentials, ISSN 2708-5422, and bi-annual publishing schedule
