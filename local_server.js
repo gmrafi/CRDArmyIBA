@@ -139,3 +139,4 @@ server.listen(PORT, () => {
 // [Build Step 54/102] - feat(hero): design statutory mandate highlight card with academic seal
 // [Build Step 55/102] - feat(hero): design scholarly research vision card with compass insignia
 // [Build Step 56/102] - feat(mandate): create statutory mandate and research framework section
+// [Build Step 57/102] - feat(mandate): implement Pillar 1: Institutional Publishing (*Jalalabad Papers*)
