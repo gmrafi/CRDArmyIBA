@@ -116,3 +116,4 @@ server.listen(PORT, () => {
 // [Build Step 31/102] - data: catalogue Mobile Financial Services consumer adoption study in publications dataset
 // [Build Step 32/102] - data: catalogue Green Finance and Climate Risk conference research in publications dataset
 // [Build Step 33/102] - data: catalogue Graduate Employability and Industrial Skill Gaps working paper
+// [Build Step 34/102] - data: configure publication filtering tags, DOIs, and citation schemas
