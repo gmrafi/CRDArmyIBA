@@ -152,3 +152,4 @@ server.listen(PORT, () => {
 // [Build Step 67/102] - feat(governance): implement Tier 3 Acting Head card for Md Ahsanul Islam (Himel)
 // [Build Step 68/102] - feat(governance): add academic coordinator and managing editor role specifications
 // [Build Step 69/102] - feat(governance): implement Tier 4 Research Assistant card for Md Golam Mubasshir Rafi
+// [Build Step 70/102] - feat(governance): add digital research systems and computational analytics technical lead credentials
