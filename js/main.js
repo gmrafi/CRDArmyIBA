@@ -32,12 +32,36 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Close mobile menu if open
                 const nav = document.querySelector('.nav');
+                const mobileToggle = document.querySelector('.mobile-nav-toggle');
                 if (nav && nav.classList.contains('mobile-open')) {
                     nav.classList.remove('mobile-open');
+                    if (mobileToggle) mobileToggle.classList.remove('active');
+                    document.body.classList.remove('nav-open');
                 }
             }
         });
     });
+
+    // Mobile Navigation Drawer Toggle Handler
+    const mobileToggle = document.querySelector('.mobile-nav-toggle');
+    const navMenu = document.querySelector('.nav');
+
+    if (mobileToggle && navMenu) {
+        mobileToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isOpen = navMenu.classList.toggle('mobile-open');
+            mobileToggle.classList.toggle('active', isOpen);
+            document.body.classList.toggle('nav-open', isOpen);
+        });
+
+        document.addEventListener('click', (e) => {
+            if (!navMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
+                navMenu.classList.remove('mobile-open');
+                mobileToggle.classList.remove('active');
+                document.body.classList.remove('nav-open');
+            }
+        });
+    }
 
     // 3. Scrollspy active link detection
     window.addEventListener('scroll', () => {

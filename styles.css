@@ -966,39 +966,246 @@ a:hover {
     font-weight: 600;
 }
 
-/* Responsive */
+/* --------------------------------------------------------------------------
+   Mobile Navigation & Responsive UI Overhaul
+   -------------------------------------------------------------------------- */
+
+.mobile-nav-toggle {
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    color: var(--primary-green);
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+.mobile-nav-toggle .close-icon {
+    display: none;
+}
+
+.mobile-nav-toggle.active .hamburger-icon {
+    display: none;
+}
+
+.mobile-nav-toggle.active .close-icon {
+    display: block;
+}
+
+body.nav-open {
+    overflow: hidden;
+}
+
+/* Responsive Breakpoints */
 @media (max-width: 992px) {
+    .nav-wrapper {
+        position: relative;
+    }
+
+    .mobile-nav-toggle {
+        display: flex;
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: -1.5rem;
+        right: -1.5rem;
+        background: #ffffff;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 0.5rem 0;
+        border-bottom: 3px solid var(--primary-green);
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+        z-index: 1001;
+    }
+
+    .nav.mobile-open {
+        display: flex;
+        animation: slideDownNav 0.22s ease-out forwards;
+    }
+
+    .nav-link {
+        padding: 0.85rem 1.5rem;
+        border-bottom: 1px solid var(--border-light);
+        font-size: 0.95rem;
+    }
+
+    .nav-link.active::after {
+        display: none;
+    }
+
+    .nav-link.active {
+        background: var(--light-green);
+        font-weight: 700;
+        color: var(--primary-green);
+        border-left: 4px solid var(--primary-green);
+    }
+
     .hero-content {
         grid-template-columns: 1fr;
+        gap: 2rem;
     }
+
     .mandate-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .governance-grid {
         grid-template-columns: 1fr;
     }
+
     .gov-card.patron-card {
         grid-column: span 1;
     }
+
     .contact-grid {
         grid-template-columns: 1fr;
     }
+
     .footer-grid {
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .top-notice-bar {
+        font-size: 0.75rem;
+    }
+
+    .top-notice-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.35rem;
+    }
+
+    .top-notice-right {
+        gap: 0.65rem;
+        flex-wrap: wrap;
+        font-size: 0.72rem;
+    }
+
+    .logo-text-crd .org-name-main {
+        font-size: 0.92rem;
+    }
+
+    .logo-text-crd .inst-name-sub {
+        font-size: 0.7rem;
+    }
+
+    .crd-institutional-logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .nav-wrapper .btn-primary {
+        display: none;
+    }
+
+    .hero-title-main {
+        font-size: 1.75rem;
+    }
+
+    .hero-subtitle {
+        font-size: 0.98rem;
+    }
+
+    .section-title {
+        font-size: 1.6rem;
+    }
+
+    .journal-detail-container {
+        padding: 1.25rem;
+    }
+
+    .journal-masthead {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .journal-title-box h3 {
+        font-size: 1.5rem;
+    }
+
+    .pub-entry {
+        padding: 1.15rem;
+    }
+
+    .pub-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .pub-actions a, .pub-actions button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .pub-filter-nav {
+        flex-wrap: wrap;
+        gap: 0.35rem;
+    }
+
+    .pub-filter-btn {
+        padding: 0.5rem 0.85rem;
+        font-size: 0.8rem;
+        flex: 1 1 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 540px) {
     .mandate-grid {
         grid-template-columns: 1fr;
     }
+
     .mission-vision-grid {
         grid-template-columns: 1fr;
     }
+
+    .gov-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1.25rem;
+    }
+
+    .gov-avatar, .gov-avatar-icon {
+        width: 110px;
+        height: 130px;
+    }
+
+    .gov-meta {
+        align-items: center;
+    }
+
     .footer-grid {
         grid-template-columns: 1fr;
     }
-    .top-notice-right {
-        display: none;
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
     }
 }
+
+@keyframes slideDownNav {
+    from {
+        opacity: 0;
+        transform: translateY(-8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
