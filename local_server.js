@@ -89,3 +89,4 @@ server.listen(PORT, () => {
 // [Build Step 4/102] - build: define jsconfig.json and VS Code developer workspace settings
 // [Build Step 5/102] - docs: define institutional academic mission and institutional scope in README
 // [Build Step 6/102] - assets: import official Army IBA Sylhet institutional crest (aibalogo.jpg)
+// [Build Step 7/102] - assets: configure vector insignia and seal SVG for institutional branding
