@@ -83,3 +83,5 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
     console.log(`AIBARS Local Server is running at http://localhost:${PORT}`);
 });
+
+// [Build Step 2/102] - chore: establish initial project structure and repository directory tree
