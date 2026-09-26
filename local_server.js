@@ -110,3 +110,4 @@ server.listen(PORT, () => {
 // [Build Step 25/102] - data: define scholarly publication registry schema in js/publications.js
 // [Build Step 26/102] - data: register Jalalabad Papers (Vol. 4, Issue 1, 2026) in publications registry
 // [Build Step 27/102] - data: register International Journal of Sustainability & Multidisciplinary Research (IJSMR)
+// [Build Step 28/102] - data: register CRD Student Working Paper Series metadata in publications registry
