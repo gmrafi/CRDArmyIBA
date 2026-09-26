@@ -108,3 +108,4 @@ server.listen(PORT, () => {
 // [Build Step 23/102] - data: configure Tier 4 Research Assistant & Systems Technical Lead data in js/governance.js
 // [Build Step 24/102] - data: export CommonJS and browser module bindings in js/governance.js
 // [Build Step 25/102] - data: define scholarly publication registry schema in js/publications.js
+// [Build Step 26/102] - data: register Jalalabad Papers (Vol. 4, Issue 1, 2026) in publications registry
