@@ -163,3 +163,4 @@ server.listen(PORT, () => {
 // [Build Step 78/102] - feat(publications): create CRD Affiliated & Faculty-Supervised Research archive section
 // [Build Step 79/102] - feat(publications): add interactive category filter pills (All, Journal, Conference, Working Paper)
 // [Build Step 80/102] - feat(publications): render bKash AI Nano Loans adoption empirical paper card
+// [Build Step 81/102] - feat(publications): render Solar Home Systems (SHS) rural livelihoods research paper card
