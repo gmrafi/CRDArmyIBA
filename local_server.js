@@ -174,3 +174,4 @@ server.listen(PORT, () => {
 // [Build Step 89/102] - feat(activities): add peer-review colloquiums and pre-submission editorial review
 // [Build Step 90/102] - feat(activities): add institutional competitive research mini-grants program
 // [Build Step 91/102] - feat(contact): design CRD Secretariat communication and editorial office section
+// [Build Step 92/102] - feat(contact): add official institutional address at Sylhet Cantonment
