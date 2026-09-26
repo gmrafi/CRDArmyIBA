@@ -147,3 +147,4 @@ server.listen(PORT, () => {
 // [Build Step 62/102] - feat(governance): design institutional governance board layout structure
 // [Build Step 63/102] - feat(governance): implement Tier 1 Chief Patron card for Director, Army IBA Sylhet
 // [Build Step 64/102] - feat(governance): add statutory patronage credential badges and AIBA crest avatar
+// [Build Step 65/102] - feat(governance): implement Tier 2 Strategic Academic Advisor card for Prof. Dr. Munsi Naser Ibn Afzal
