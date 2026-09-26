@@ -238,7 +238,7 @@ h1, h2, h3, h4 {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+    background: #ffffff;
     padding: 2.5rem 0 3rem;
 }
 
@@ -697,7 +697,7 @@ h1, h2, h3, h4 {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background: linear-gradient(135deg, var(--primary-green), #0f3d26);
+    background: #ffffff, #0f3d26);
     margin: 0 auto 1.5rem;
     display: flex;
     align-items: center;
@@ -810,7 +810,7 @@ h1, h2, h3, h4 {
 
 /* CTA Section */
 .cta-section {
-    background: linear-gradient(135deg, var(--primary-green) 0%, #164a2f 100%);
+    background: #ffffff 0%, #164a2f 100%);
     padding: 4rem 0;
     text-align: center;
 }
@@ -1074,7 +1074,7 @@ h1, h2, h3, h4 {
 
 /* Footer */
 .footer {
-    background: linear-gradient(135deg, var(--primary-green), #0f3d26);
+    background: #ffffff, #0f3d26);
     color: var(--white);
     padding: 3rem 0 1.5rem;
 }
@@ -1579,7 +1579,7 @@ h1, h2, h3, h4 {
 
 /* Team Page Specific Styles */
 .page-header {
-    background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+    background: #ffffff;
     padding: 1.5rem 0 1.5rem;
     text-align: center;
     margin-top: 80px;
@@ -1630,7 +1630,7 @@ h1, h2, h3, h4 {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    background: linear-gradient(135deg, var(--primary-green), #0f3d26);
+    background: #ffffff, #0f3d26);
     margin: 0 auto 1rem;
     display: flex;
     align-items: center;
@@ -1749,7 +1749,7 @@ h1, h2, h3, h4 {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%);
+    background: #ffffff 0%, rgba(0, 0, 0, 0.3) 50%, transparent 100%);
     opacity: 0;
     transition: var(--transition);
     display: flex;
@@ -1901,7 +1901,7 @@ h1, h2, h3, h4 {
 
 .btn-reset {
     padding: 0.75rem 1.5rem;
-    background: linear-gradient(135deg, var(--primary-green) 0%, #0f7a4a 100%);
+    background: #ffffff 0%, #0f7a4a 100%);
     color: var(--white);
     border: none;
     border-radius: 10px;
@@ -1916,7 +1916,7 @@ h1, h2, h3, h4 {
 }
 
 .btn-reset:hover {
-    background: linear-gradient(135deg, #0f7a4a 0%, var(--primary-green) 100%);
+    background: #ffffff 100%);
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(30, 90, 60, 0.4);
 }
@@ -1924,7 +1924,7 @@ h1, h2, h3, h4 {
 .publications-count {
     margin-bottom: 1.5rem;
     padding: 1rem 1.5rem;
-    background: linear-gradient(135deg, var(--white) 0%, #f8f9fa 100%);
+    background: #ffffff 0%, #f8f9fa 100%);
     border-left: 5px solid var(--primary-green);
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
@@ -2102,7 +2102,7 @@ h1, h2, h3, h4 {
 
 /* Institutional Badge */
 .institutional-badge {
-    background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
+    background: #ffffff;
     color: var(--primary-green);
     border: 1px solid rgba(30, 90, 60, 0.2);
     font-weight: 600;
@@ -2196,7 +2196,7 @@ h1, h2, h3, h4 {
 
 .journal-card.flagship {
     border-top: 5px solid #d4af37;
-    background: linear-gradient(180deg, #fffcf5 0%, #ffffff 100%);
+    background: #ffffff;
     box-shadow: 0 8px 24px rgba(212, 175, 55, 0.12);
 }
 
@@ -2298,7 +2298,7 @@ h1, h2, h3, h4 {
 
 .tier-1-card {
     grid-column: span 2;
-    background: linear-gradient(180deg, #f4faf6 0%, #ffffff 100%);
+    background: #ffffff;
     border: 2px solid #cce5d6;
     padding: 3rem 2.5rem;
 }
