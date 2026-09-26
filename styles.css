@@ -43,7 +43,7 @@ img {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', Georgia, serif;
 }
 
 .container {
@@ -129,7 +129,7 @@ h1, h2, h3, h4 {
     font-size: 5rem;
     color: var(--primary-green);
     line-height: 1;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', Georgia, serif;
     font-weight: 700;
     margin: 0;
 }
@@ -150,7 +150,7 @@ h1, h2, h3, h4 {
     font-size: 4rem;
     color: var(--primary-green);
     line-height: 1;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', Georgia, serif;
 }
 
 .logo-text h1 {
@@ -292,7 +292,7 @@ h1, h2, h3, h4 {
     font-weight: 700;
     margin-bottom: 0.75rem;
     color: var(--text-dark);
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', Georgia, serif;
     line-height: 1.2;
 }
 
@@ -364,7 +364,7 @@ h1, h2, h3, h4 {
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
     color: var(--text-dark);
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', Georgia, serif;
     font-weight: 700;
     margin-top: 0;
 }
@@ -626,7 +626,7 @@ h1, h2, h3, h4 {
     color: white;
     font-size: 2rem;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', Georgia, serif;
     flex-shrink: 0;
 }
 
@@ -2357,7 +2357,7 @@ h1, h2, h3, h4 {
 }
 
 .governance-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', Georgia, serif;
     font-size: 1.45rem;
     color: #0f2d1e;
     font-weight: 700;
