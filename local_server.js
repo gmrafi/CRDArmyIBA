@@ -125,3 +125,4 @@ server.listen(PORT, () => {
 // [Build Step 40/102] - script: add interactive manuscript submission callout modal handler
 // [Build Step 41/102] - seo: define OpenGraph protocol metadata and canonical link declarations
 // [Build Step 42/102] - seo: add Twitter Card metadata for academic research sharing
+// [Build Step 43/102] - seo: implement Schema.org ResearchOrganization and EducationalOrganization JSON-LD
