@@ -126,3 +126,4 @@ server.listen(PORT, () => {
 // [Build Step 41/102] - seo: define OpenGraph protocol metadata and canonical link declarations
 // [Build Step 42/102] - seo: add Twitter Card metadata for academic research sharing
 // [Build Step 43/102] - seo: implement Schema.org ResearchOrganization and EducationalOrganization JSON-LD
+// [Build Step 44/102] - seo: configure robots.txt crawling directives for institutional portal
