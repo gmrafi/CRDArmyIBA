@@ -85,3 +85,4 @@ server.listen(PORT, () => {
 });
 
 // [Build Step 2/102] - chore: establish initial project structure and repository directory tree
+// [Build Step 3/102] - build: configure .gitignore for environment, artifacts, and node modules
