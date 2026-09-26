@@ -171,3 +171,4 @@ server.listen(PORT, () => {
 // [Build Step 86/102] - feat(activities): create institutional activities and academic seminars section
 // [Build Step 87/102] - feat(activities): add scholarly seminars on digital economy and monetary policy
 // [Build Step 88/102] - feat(activities): add faculty development workshops in econometric modeling and STATA
+// [Build Step 89/102] - feat(activities): add peer-review colloquiums and pre-submission editorial review
