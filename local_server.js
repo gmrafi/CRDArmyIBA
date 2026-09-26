@@ -123,3 +123,4 @@ server.listen(PORT, () => {
 // [Build Step 38/102] - script: implement scrollspy active navigation state listener
 // [Build Step 39/102] - script: implement multi-category publication filter tab controller
 // [Build Step 40/102] - script: add interactive manuscript submission callout modal handler
+// [Build Step 41/102] - seo: define OpenGraph protocol metadata and canonical link declarations
