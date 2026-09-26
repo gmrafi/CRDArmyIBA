@@ -178,3 +178,4 @@ server.listen(PORT, () => {
 // [Build Step 93/102] - feat(contact): configure editorial email contacts (crd@aibasylhet.edu.bd)
 // [Build Step 94/102] - feat(footer): rebuild institutional footer with AIBA Sylhet crest and CRD branding
 // [Build Step 95/102] - feat(footer): add statutory links to mandate, journals, and governance board
+// [Build Step 96/102] - feat(footer): establish official copyright: © 2026 CRD, Army IBA Sylhet
