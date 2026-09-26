@@ -149,3 +149,4 @@ server.listen(PORT, () => {
 // [Build Step 64/102] - feat(governance): add statutory patronage credential badges and AIBA crest avatar
 // [Build Step 65/102] - feat(governance): implement Tier 2 Strategic Academic Advisor card for Prof. Dr. Munsi Naser Ibn Afzal
 // [Build Step 66/102] - feat(governance): add doctoral economics and econometric advisory credentials for SUST professor
+// [Build Step 67/102] - feat(governance): implement Tier 3 Acting Head card for Md Ahsanul Islam (Himel)
