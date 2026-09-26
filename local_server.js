@@ -169,3 +169,4 @@ server.listen(PORT, () => {
 // [Build Step 84/102] - feat(publications): render Graduate Employability and Industrial Skill Gaps working paper card
 // [Build Step 85/102] - feat(publications): link DOI handles, Zenodo pre-print records, and peer-review badges
 // [Build Step 86/102] - feat(activities): create institutional activities and academic seminars section
+// [Build Step 87/102] - feat(activities): add scholarly seminars on digital economy and monetary policy
