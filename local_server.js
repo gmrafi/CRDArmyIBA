@@ -165,3 +165,4 @@ server.listen(PORT, () => {
 // [Build Step 80/102] - feat(publications): render bKash AI Nano Loans adoption empirical paper card
 // [Build Step 81/102] - feat(publications): render Solar Home Systems (SHS) rural livelihoods research paper card
 // [Build Step 82/102] - feat(publications): render Consumer Adoption Dynamics PLS-SEM research paper card
+// [Build Step 83/102] - feat(publications): render Green Finance and Climate Risk conference research paper card
