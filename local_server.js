@@ -122,3 +122,4 @@ server.listen(PORT, () => {
 // [Build Step 37/102] - script: implement smooth scroll navigation with sticky header offset calculation
 // [Build Step 38/102] - script: implement scrollspy active navigation state listener
 // [Build Step 39/102] - script: implement multi-category publication filter tab controller
+// [Build Step 40/102] - script: add interactive manuscript submission callout modal handler
