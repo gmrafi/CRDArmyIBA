@@ -176,3 +176,4 @@ server.listen(PORT, () => {
 // [Build Step 91/102] - feat(contact): design CRD Secretariat communication and editorial office section
 // [Build Step 92/102] - feat(contact): add official institutional address at Sylhet Cantonment
 // [Build Step 93/102] - feat(contact): configure editorial email contacts (crd@aibasylhet.edu.bd)
+// [Build Step 94/102] - feat(footer): rebuild institutional footer with AIBA Sylhet crest and CRD branding
