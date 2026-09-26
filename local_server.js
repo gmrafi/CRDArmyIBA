@@ -107,3 +107,4 @@ server.listen(PORT, () => {
 // [Build Step 22/102] - data: configure Tier 3 Acting Head and Academic Coordinator data in js/governance.js
 // [Build Step 23/102] - data: configure Tier 4 Research Assistant & Systems Technical Lead data in js/governance.js
 // [Build Step 24/102] - data: export CommonJS and browser module bindings in js/governance.js
+// [Build Step 25/102] - data: define scholarly publication registry schema in js/publications.js
