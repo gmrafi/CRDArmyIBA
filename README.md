@@ -59,3 +59,5 @@ node local_server.js
 Research Assistant & Systems Technical Lead  
 Centre for Research and Development (CRD), Army IBA Sylhet  
 GitHub: [@gmrafi](https://github.com/gmrafi)
+
+<!-- Peer-reviewed publication catalog updated -->
